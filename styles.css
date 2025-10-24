@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #222;
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px #ddd;
+}
+
+h1 {
+    text-align: center;
+    color: #38b000;
+}
+
+#item-list {
+    margin-top: 24px;
+}
+
+.item {
+    background: #fff;
+    border: 1px solid #38b000;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: #38b000;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+input, button {
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #38b000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
