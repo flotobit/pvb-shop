@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plants vs Brainrots Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Plants vs Brainrots Shop</h1>
+    <div id="item-list">
+        <!-- Items will be rendered here -->
+    </div>
+    <h2>Add New Item</h2>
+    <form id="add-item-form">
+        <input type="text" id="item-name" placeholder="Item name" required>
+        <input type="number" id="item-price" placeholder="Price in $" required min="0.01" step="0.01">
+        <button type="submit">Add Item</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
